@@ -1,5 +1,8 @@
 # React
 
+### Comando windows scripts
+`set-executionpolicy unrestricted`
+
 ## NPM modulos globales
 - `npm install -g express`<br>
 - `npm install -g firebase-tools`<br>
