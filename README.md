@@ -13,6 +13,7 @@
 
 ## Vite Projects
 - `npm create vite`
+- `npm init vite project-name`
 
 ## Firebase
 - >Login<br>
