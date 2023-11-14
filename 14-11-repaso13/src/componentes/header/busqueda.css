@@ -1,0 +1,6 @@
+.plantilla {
+    display: grid;
+  }
+  .tres {
+    grid-template-rows: 33.33% 33.33% 33.33%;
+  }
