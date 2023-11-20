@@ -1,7 +1,7 @@
 //import './App.css'
 import Busqueda from "./componentes/header/busqueda.tsx";
 //import "./componentes/header/busqueda.css";
-import productos from "./componentes/header/productos.tsx";
+import productos from "./componentes/header/productos.ts";
 
 function App() {
   const prods = productos.map((item, index) => <Busqueda {...item} key={index}>
