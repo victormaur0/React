@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content 100% min-content;
+}
+
+main {
+  grid-template-columns: repeat(4, 20%);
+  & img {
+    width: 256px;
+  }
+  & p {
+    grid-column: 1 / span 4;
+  }
+}
+
+footer{
+    grid-template-columns: repeat(2, 50%);
+    & div {
+      column-gap: 10px;
+    }
+}
+
+.grid-centrar {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.flex-centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doble-col {
+  grid-template-rows: 2;
+}

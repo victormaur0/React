@@ -6,7 +6,7 @@
 ## NPM modulos globales
 - `npm install -g express`<br>
 - `npm install -g firebase-tools`<br>
-- `npm install -g vite`<br>
+- `npm install -g vite` *Te permite ejecutar comandos en la terminal.*<br>
 ## NPM modulos por proyecto
 - `npm i nodemon`
 
@@ -14,7 +14,8 @@
 ## Vite Projects
 - `npm create vite`
 - `npm init vite project-name`
-- >Ver proyecto:<br>`npm run dev`
+- >Ver proyecto:<br>`npm run dev` *Ejecutar dentro de la carpeta del proyecto.*
+- - >*Siempre ejecutar antes: * `npm install`
 
 ## Firebase
 - >Login<br>
